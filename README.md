@@ -1,9 +1,50 @@
 # wit_project - VCS Repository Management for Go
 Manage repos to control changes with ease through command line interface.
+This Program will create a Wit folder inside the folder you would like to backup. inside this folder, you will find Staging area folder, which contains all the files the user specificly asked to backup. In addition, an Image folder will be created, wich contains an "image", a copy of the commited files.
 
 ## Quick usage
 Quick usage:
-open exsisting directory which you would like to track using CMD:
+open exsisting directory which you would like to track on CMD using the following command:
 
 ``` cd YOUR_PATH ```
+
+ please notice that the atached wit files notation is ```WIT_FILE_LOCATION```
+
+# Type the follwing command on CMD
+
+## Add files to staging area
+
+```python "WIT_FILE_LOCATION" add "FILE_TO_ADD_PATH"```
+
+## Commit
+This command will create a folder name with length of 40 characther, using only digits 0-9 and letters a-f.
+```MESSAGE``` is message the you would like to add to the commit.
+
+```python "WIT_FILE_LOCATION" commit MESSAGE```
+
+## Status
+check your repository status
+
+```python "WIT_FILE_LOCATION" status```
+
+## remove files from staging area 
+python "WIT_FILE_LOCATION" rm "FILES_TO_REMOVE"
+
+## Checkout
+Copy all files from ```COMMIT``` to parent folder.
+```python "WIT_FILE_LOCATION" checkout COMMIT```
+
+## Graph
+Show a graph of the relations between commits. at ```--all``` to see all relations in the repository.
+```python "WIT_FILE_LOCATION" graph```
+
+## Create a branch
+To test and ad specifc qualities to the code.
+```python "WIT_FILE_LOCATION" branch BRANCH_NAME```
+
+## Merge branches
+```python "WIT_FILE_LOCATION" merge BRANCH_NAME```
+
+
+
 
