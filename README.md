@@ -1,2 +1,2 @@
 # wit_project
-Creating a basic VCS/
+Creating a basic VCS
