@@ -1,4 +1,4 @@
-# wit_project - VCS Repository Management for Go
+# Wit_project - VCS Repository Management for Go
 Manage repos to control changes with ease through a command-line interface.
 This Program will create a Wit folder inside the folder you would like to backup. inside this folder, you will find the Staging area folder, which contains all the files the user specifically asked to backup. In addition, an Image folder will be created, which contains an "image", a copy of the commited files.
 The code was written in Python 3.7.4, on Windows OS.
