@@ -1,5 +1,3 @@
-# upload  177
-
 from distutils.dir_util import copy_tree
 import itertools
 from os import listdir
@@ -614,5 +612,3 @@ if __name__ == "__main__":
         w.branch()
     elif sys.argv[1] == 'merge':
         w.merge()
-
-# Reupload 177
